@@ -1,0 +1,9 @@
+{
+    "description": "",
+    "main": "dist/index.ts",
+    "scripts": {
+        "build": "esbuild src/index.ts --tsconfig=tsconfig.json --bundle --minify --loader:.png=file --loader:.jpg=file --loader:.ttf=file --loader:.woff=file --loader:.woff2=file --outdir=dist"
+    },
+    "license": "GPL-3.0",
+    "homepage": ""
+}
